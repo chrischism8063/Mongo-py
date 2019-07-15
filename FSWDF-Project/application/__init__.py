@@ -2,7 +2,7 @@
 from flask import Flask
 
 # create flask object
-app = Flask(__name__, template_folder='template')
+app = Flask(__name__)
 
 
 from application import routes
