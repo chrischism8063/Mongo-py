@@ -1,6 +1,7 @@
 # main entry to the system
 from application import app, db
 from flask import render_template, request, json, Response
+from application.models import User, Course, Enrollment
 
 courseData = [
     { "courseID": "1111", "title": "PHP 111", "description": "intro to PHP", "credits": "3", "term": "Fall, Spring" },
